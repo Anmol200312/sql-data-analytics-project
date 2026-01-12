@@ -79,13 +79,28 @@ It is ideal for **Data Analysts, BI Analysts, SQL Developers, and Analytics Prof
 
 sql-data-analytics-project/
 
+- docs/
+  - Project documentation and notes related to data analysis
+
 - scripts/
-  - database_exploration.sql
-  - measures_and_metrics.sql
-  - time_based_analysis.sql
-  - cumulative_analytics.sql
-  - segmentation_analysis.sql
-  - advanced_sql_analytics.sql
+  - 00_init_database.sql            # Database initialization and setup
+  - 01_database_exploration.sql     # Exploring tables, schema, and basic data profiling
+  - 02_dimensions_exploration.sql   # Dimension tables and descriptive attributes analysis
+  - 03_date_range_exploration.sql   # Date ranges, time coverage, and temporal validation
+  - 04_measures_exploration.sql     # Core business measures and metrics analysis
+  - 05_magnitude_analysis.sql       # Distribution and magnitude-based insights
+  - 06_ranking_analysis.sql         # Ranking entities using analytical functions
+  - 07_change_over_time_analysis.sql# Trend and change-over-time analysis
+  - 08_cumulative_analysis.sql      # Running totals and cumulative metrics
+  - 09_performance_analysis.sql     # Performance evaluation and KPI analysis
+  - 10_data_segmentation.sql        # Customer and data segmentation analysis
+  - 11_part_to_whole_analysis.sql   # Contribution and percentage analysis
+  - 12_report_customers.sql         # Customer-level analytical reporting
+  - 13_report_products.sql          # Product-level analytical reporting
+
+- README.md                         # Project overview and documentation
+- LICENSE                           # License information
+
 
   ---
   
